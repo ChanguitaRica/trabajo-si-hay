@@ -106,7 +106,23 @@ header{
     max-width: 500px;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
 
+#form-vacante button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: var(--rojo);
+    color: var(--blanco);
+    border: none;
+    border-bottom: 6px solid var(--rojo-oscuro);
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#form-vacante  button:hover{
+    background-color: var(--rojo-oscuro);
 }
 
 footer{
