@@ -25,6 +25,7 @@ header{
     padding: 20px;
     text-align: center;
 }
+
 .logo{
     color: var(--rojo-oscuro);
     margin-bottom: 10px;
@@ -48,6 +49,22 @@ header{
 
 .menu a:hover{
     color: var(--amarillo);
+}
+
+.hero{
+    padding: 40px 20px;
+    text-align: center;
+    background-color: var(--amarillo);
+}
+
+.btn{
+    display: inline-block;
+    background-color: var(--rojo);
+    color: var(--blanco);
+    padding: 12px 24px;
+    text-decoration: none;
+    margin-top: 15px;
+
 }
 
 footer{
