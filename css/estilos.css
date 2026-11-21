@@ -82,6 +82,19 @@ header{
     margin-top: 30px;
 }
 
+#form-vacante label{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#form-vacante input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--texto);
+    border-radius: 10px;
+}
+
 footer{
     background-color: var(--rojo);
     color: var(--blanco);
