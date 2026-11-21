@@ -7,3 +7,4 @@ for (const vacante of vacantes){
     <p>Pago: ${vacante.pago} por día</p>	
     </article> `;
     }
+    

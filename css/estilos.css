@@ -21,14 +21,18 @@ body{
 }
 
 header{
-    background: linear-gradient(to bottom, var(--amarillo) 50%, var(--rojo) 50%);
-    padding: 20px;
     text-align: center;
 }
 
 .logo{
     color: var(--rojo-oscuro);
-    margin-bottom: 10px;
+    padding: 20px;
+    background-color: var(--amarillo);
+}
+
+.menu{
+    background-color: var(--rojo);
+    padding: 10px;
 }
 
 .menu ul{
@@ -93,6 +97,16 @@ header{
     padding: 10px;
     border: 1px solid var(--texto);
     border-radius: 10px;
+}
+
+#form-vacante{
+    background-color: var(--blanco);
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+
 }
 
 footer{
