@@ -9,8 +9,10 @@ formulario.addEventListener("submit", function (evento) {
     jornada: document.getElementById("jornada").value,
     pago: Number(document.getElementById("pago").value)
    };
-    sessionStorage.setItem("nuevaVacante", JSON.stringify(nuevaVacante));
-    });
+    const guardadas = JSON.parse(sessionStorage.getItem("vacantesNuevas")) || [];
+    guardadas.push(nuevaVacante);
+    sessionStorage.setItem("vacantesNuevas", JSON.stringify(guardadas));
+});
 
 
     
