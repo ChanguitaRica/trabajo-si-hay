@@ -97,6 +97,34 @@ header{
     text-align: center;
 }
 
+.nosotros{
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: var(--blanco);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.nosotros .credito{
+    font-size: 12px;
+    text-align: center;
+}
+
+.nosotros p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.nosotros img{
+    display: block;
+    max-width: 100%;
+    width: 450px;
+    height: auto;
+    margin: 20px auto 5px;
+    border-radius: 10px;
+}
+
 #form-vacante label{
     display: block;
     margin-top: 15px;
