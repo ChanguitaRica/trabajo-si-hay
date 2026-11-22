@@ -12,6 +12,7 @@ formulario.addEventListener("submit", function (evento) {
     const guardadas = JSON.parse(sessionStorage.getItem("vacantesNuevas")) || [];
     guardadas.push(nuevaVacante);
     sessionStorage.setItem("vacantesNuevas", JSON.stringify(guardadas));
+    window.location.href = "vacantes.html";
 });
 
 
