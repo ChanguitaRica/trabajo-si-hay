@@ -16,7 +16,7 @@ Plataforma wed de empleos de barrio en la Localidad de Bosa en Bogotá D.C (con 
 -Git y GitHub Pages
 
 ## Ver el proyecto
-Enlace: 
+Enlace: https://changuitarica.github.io/trabajo-si-hay/
 
 ## Autor
 Julian R. - Foto de Nosotros: Kampus Production, pexels.
