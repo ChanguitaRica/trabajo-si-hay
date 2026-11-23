@@ -12,7 +12,7 @@ const vacantes = [
         puesto: "Administrador",
         negocio: "Bar Alcoholegio",
         barrio: "Bosa Santa Fe",
-        tipo: "Finanzas e inventarios",
+        tipo: "Administración",
         jornada: "Miércoles a domingos",
         pago: 130000
     },
@@ -21,7 +21,7 @@ const vacantes = [
         puesto: "Captador de clientes",
         negocio: "Quesería Mar Cheese",
         barrio: "Bosa Centro",
-        tipo: "Operativo",
+        tipo: "Ventas",
         jornada: "Lunes a Sábados",
         pago: 75000
     },
@@ -30,7 +30,7 @@ const vacantes = [
         puesto: "Cortador de carne",
         negocio: "Dalai Lomo",
         barrio: "Bosa Santa Fe",
-        tipo: "Atención al cliente",
+        tipo: "Operativo",
         jornada: "Lunes a Sábados",
         pago: 75000
     },
@@ -39,7 +39,7 @@ const vacantes = [
         puesto: "Heladero",
         negocio: "El Cono-Cimiento",
         barrio: "Bosa Atalayas",
-        tipo: "Heladería artesanal",
+        tipo: "Atención",
         jornada: "Lunes a Sábados",
         pago: 75000
     },
