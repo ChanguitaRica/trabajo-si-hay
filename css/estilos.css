@@ -131,7 +131,7 @@ header{
     font-weight: bold;
 }
 
-#form-vacante input{
+#form-vacante input, #form-vacante select{
     width: 100%;
     padding: 10px;
     border: 1px solid var(--texto);
