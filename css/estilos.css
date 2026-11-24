@@ -58,7 +58,7 @@ header{
 .hero{
     padding: 40px 20px;
     text-align: center;
-    background-color: var(--amarillo);
+    background-color: var(--fondo);
 }
 
 .btn{
