@@ -205,7 +205,7 @@ footer{
 
 @media (min-width: 1024px){
     #lista-vacantes{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     .hero h2{
         font-size: 48px;
